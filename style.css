@@ -32,3 +32,22 @@ body{
     flex: 0 0 50%;
     max-width: 50%;
 }
+.menu{
+    display: flex;
+}
+.menu li{
+    width: 25%;
+    border-left: 1px solid #2c71b8;
+}
+.menu li:last-child{
+    border-right:1px solid #2c71b8;
+}
+.menu a{
+    height: 50px;
+    text-decoration: none;
+    display: block;
+    font-size: 21px;
+    color: #2c71b8;
+    text-align: center;
+    line-height: 50px;
+}
